@@ -1,0 +1,8 @@
+{
+    "encrypt": {
+        "method": "xor",
+        "shift": 3,
+        "key": "default_key"
+    }
+}
+
