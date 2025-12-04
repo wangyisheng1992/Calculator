@@ -11,54 +11,32 @@ A simple console-based personal utility suite in C++17.
 
 ## Project Structure
 
+```text
 .
-
 ├── CMakeLists.txt
-
 ├── config.json
-
 ├── include
-
-│   ├── ConfigManager.h
-
-│   ├── Tool.h
-
-│   └── ToolRegistry.h
-
+│ ├── ConfigManager.h
+│ ├── Tool.h
+│ └── ToolRegistry.h
 ├── README.md
-
 └── src
-    
-    ├── ConfigManager.cpp
-    
-    ├── main.cpp
-    
-    ├── registerTools.cpp
-    
-    ├── ToolRegistry.cpp
-    
-    └── tools
-        
-        ├── CalculatorTool.cpp
-        
-        ├── CalculatorTool.h
-        
-        ├── ColorPickerTool.cpp
-        
-        ├── ColorPickerTool.h
-        
-        ├── TextEncryptTool.cpp
-        
-        ├── TextEncryptTool.h
-        
-        ├── TextStatsTool.cpp
-        
-        ├── TextStatsTool.h
-        
-        ├── UnitConverterTool.cpp
-        
-        └── UnitConverterTool.h
-
+  ├── ConfigManager.cpp
+  ├── main.cpp
+  ├── registerTools.cpp
+  ├── ToolRegistry.cpp
+  └── tools
+    ├── CalculatorTool.cpp
+    ├── CalculatorTool.h
+    ├── ColorPickerTool.cpp
+    ├── ColorPickerTool.h
+    ├── TextEncryptTool.cpp
+    ├── TextEncryptTool.h
+    ├── TextStatsTool.cpp
+    ├── TextStatsTool.h
+    ├── UnitConverterTool.cpp
+    └── UnitConverterTool.h
+```
 
 ## Build
 
