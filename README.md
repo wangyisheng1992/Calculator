@@ -13,11 +13,8 @@ A simple console-based personal utility suite in C++17.
 
 .
 ├── CMakeLists.txt
-
 ├── config.json
-
 ├── include
-
 │   ├── ConfigManager.h
 │   ├── Tool.h
 │   └── ToolRegistry.h
